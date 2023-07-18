@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<tilte> Login </title>
+	<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+	<form action="" method="post">
+	<label for="email" ><b>Enter your email: </b></label>
+	<input type="text" placeholder="john@example.com" name="email" required>
+
+	<label for="password" ><b>Enter your email: </b></label>
+	<input type="password" placeholder="min 6 characters" name="password" required>
+
+	<button type="submit">Login</button>
+	
+	<label> 
+	<input type="checkbox" checked="checked" name="Remember me">Remember Me </label>
+
+	<button type="reset">Cancel</button>
+
+	<span> Forgot <a href="#"> password ? </a> </span>
+	</form>
+	
+</body>
+</html>
